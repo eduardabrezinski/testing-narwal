@@ -63,4 +63,5 @@ Sinta-se à vontade para contribuir com melhorias, sugestões ou correções de 
 
 ---
 
-Este README fornece uma visão geral clara de como configurar, executar e contribuir para o projeto de testes usando Cypress. Certifique-se de personalizar as URLs e outros detalhes conforme necessário para refletir precisamente o ambiente e os testes que você está realizando.
+Este README fornece uma visão geral clara de como configurar, executar e contribuir para o projeto de testes usando Cypress. 
+Certifique-se de personalizar as URLs e outros detalhes conforme necessário para refletir precisamente o ambiente e os testes que você está realizando.
