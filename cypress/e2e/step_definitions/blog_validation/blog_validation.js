@@ -1,4 +1,4 @@
-// Importa os passos Given, When, Then do pacote cypress-cucumber-preprocessor/steps
+// Importa os passos Given, When, Then 
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 
 // Define o passo Given que estabelece que estou na página inicial do blog da Narwal Sistemas
@@ -7,9 +7,9 @@ Given('que estou na página inicial do blog da Narwal Sistemas', () => {
   cy.visit('https://www.narwalsistemas.com.br/blog/')
 })
 
-// Define o passo Then que verifica se o logotipo da empresa está visível na página
+// Define o passo Then que verifica se o logotipo da empresa está visível
 Then('eu devo ver o logotipo da empresa visível', () => {
-  // Verifica se o elemento 'a > .attachment-large' está visível na página
+  // Verifica se o elemento 'a > .attachment-large' está visível
   cy.get('a > .attachment-large')
     .should('be.visible')
 })
